@@ -5,3 +5,8 @@ from app import greet
 
 def test_greet():
     assert greet("World") == "Hello, World!"
+
+
+def test_farewell():
+    from app import farewell
+    assert farewell("World") == "Goodbye, World!"
